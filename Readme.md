@@ -24,7 +24,7 @@ You can take look in [FAQ](https://github.com/shouldjs/should.js/wiki/FAQ).
 
 ## Example
 ```javascript
-var should = require('should');
+var should = require('should-without-global');
 
 var user = {
     name: 'tj'
