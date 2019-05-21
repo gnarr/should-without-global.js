@@ -53,13 +53,13 @@ someAsyncTask(foo, function(err, result){
  1. Install it:
 
     ```bash
-    $ npm install should --save-dev
+    $ npm install should-without-global --save-dev
     ```
 
  2. Require it and use:
 
     ```js
-    var should = require('should');
+    var should = require('should-without-global');
 
     (5).should.be.exactly(5).and.be.a.Number();
     ```
@@ -73,7 +73,7 @@ someAsyncTask(foo, function(err, result){
  3. For TypeScript users:
   
     ```js
-    import * as should from 'should';
+    import * as should from 'should-without-global';
 
     (0).should.be.Number();
     ```
@@ -98,7 +98,7 @@ should(10).be.exactly(10)
 You can easy install it with npm or bower:
 
 ```sh
-npm install should -D
+npm install should-without-global -D
 # or
 bower install shouldjs/should.js
 ```
